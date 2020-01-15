@@ -1,0 +1,122 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff; 
+    width: 100%;
+}
+
+h1{
+    text-align: right;
+    font-size: 35px;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 2px solid #ce1d26;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+    color: #ce1d26;
+    text-shadow: 3px 2px black;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    background-color: #ce1d26;
+    border-top: 2px solid #ce1d26;
+    border-bottom: 2px solid #ce1d26;
+    padding-bottom: 10px;
+}
+
+h3{
+    background-color: #ce1d26;
+    font-size: 16px;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    margin:0px;
+} 
+
+h3 a:hover{
+    color: white;
+    
+}
+
+ p{
+     color: #000000;
+     font-size: 14px;
+     text-align: left;
+     width: 100%;
+ }
+
+ a{
+     text-decoration: none;
+     color: #000000;
+ }
+
+.sectionTitle{
+    background-color: #ce1d26;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 10px;
+
+}
+
+.imgProducts{
+    width: 250px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+}
+
+.imgProducts:hover{
+    transform: scale(2.0);
+}
+
+.divProducts{
+    width: 25%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin:2px;
+}
+
+.abstract{
+    background: white;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 20px;
+}
+
+p.text{
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 3px;
+    background: white;
+    padding: 5px;
+    text-indent: 10px;
+}
+
+#imgLocation{
+    width: 300px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgLocation:hover{
+    transform: scale(2.0);
+}
+
